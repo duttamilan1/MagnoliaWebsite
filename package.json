@@ -9,7 +9,7 @@
     "bulma": "^0.9.3"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.2.1",
-    "parcel": "^2.2.1"
+    "@parcel/transformer-sass": "^2",
+    "parcel": "^2"
   }
 }
