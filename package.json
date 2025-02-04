@@ -3,7 +3,7 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "sass assets/scss/style.scss assets/scss/style.css && parcel build --no-content-hash && cp CNAME dist/"
+  "build": "parcel build --no-content-hash && cp CNAME dist/"
   },
   "dependencies": {
     "bulma": "^0.9.3"
