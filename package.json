@@ -2,14 +2,10 @@
   "name": "magnoliametrics.com",
   "source": "index.html",
   "scripts": {
-    "start": "parcel",
-  "build": "parcel build --no-content-hash --dist-dir dist && mkdir -p dist/assets/css && cp -r assets/css dist/assets/ && cp -r assets/js dist/assets/ && cp CNAME dist/"
+    "start": "live-server --port=8000",
+    "build": "mkdir -p dist/assets/css dist/assets/js && cp -r assets/css/* dist/assets/css/ && cp -r assets/js/* dist/assets/js/ && cp CNAME dist/"
   },
   "dependencies": {
     "bulma": "^0.9.3"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2",
-    "parcel": "^2"
   }
 }
