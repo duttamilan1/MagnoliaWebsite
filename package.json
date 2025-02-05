@@ -3,7 +3,7 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel",
-  "build": "parcel build --no-content-hash && cp CNAME dist/"
+  "build": "parcel build --no-content-hash --dist-dir dist && mkdir -p dist/assets/css && cp -r assets/css dist/assets/ && cp -r assets/js dist/assets/ && cp CNAME dist/"
   },
   "dependencies": {
     "bulma": "^0.9.3"
